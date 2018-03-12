@@ -1,0 +1,1 @@
+LOGGER_PATH = "flask.log"
