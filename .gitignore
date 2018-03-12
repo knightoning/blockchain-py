@@ -1,0 +1,8 @@
+pip-selfcheck.json
+.Python
+[Bb]in
+[Ii]nclude
+[Ll]ib
+*.pyc
+*.log
+.idea/
