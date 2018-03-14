@@ -9,13 +9,14 @@ import requests
 class BlockChain(object):
 
     def __init__(self):
+
         """
-        初始化一个创世快
+          Create the genesis block
+           初始化一个创世快
         """
+
         self.chain = []
         self.current_transactions = []
-
-        # Create the genesis block
         self.new_block(previous_hash=1, proof=100)
 
         self.nodes = set()
